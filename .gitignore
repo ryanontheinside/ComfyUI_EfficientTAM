@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Model weights and checkpoints
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Logs and databases
+*.log
+*.sqlite
+logs/
+
+# Test outputs and temporary files
+outputs/
+temp/
+tmp/
+
+# ComfyUI specific
+output/
+input/
